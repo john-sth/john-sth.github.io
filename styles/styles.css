@@ -9,7 +9,7 @@ title {
 }
 
 body {
-  background-color: black;
+  /*background-color: black; */
   color:orange
   font-family: 'Fira Code','Courier New', monospace;
   color: var(--secondary);
