@@ -3,8 +3,14 @@
   margin: 0;
 }
 
+title {
+  color: orange;
+  text-align: center;
+}
+
 body {
   background-color: black;
+  color:orange
   font-family: 'Fira Code','Courier New', monospace;
   color: var(--secondary);
   --st: 0px;
