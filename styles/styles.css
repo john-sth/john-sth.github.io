@@ -10,3 +10,17 @@ body {
   color:orange;
   font-family: 'Fira Code','Courier New', monospace;
 }
+
+img {
+  -webkit-transform: translate3d(0, 0, 0); /* Forces GPU rendering */
+  -webkit-backface-visibility: hidden; /* Improves rendering quality */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+
+
