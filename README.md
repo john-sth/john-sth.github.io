@@ -5,6 +5,7 @@
    - [ ] style more with css
    - [ ] look for responsiveness (like buttons clicking on links)
    - [ ] search for inspirations on other websites for styling
+   - [ ] look at lukesmith's, bugswriters page for inspiration
 
 - [ ] get a domain name to link the website to 
 
