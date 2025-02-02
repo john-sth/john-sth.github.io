@@ -18,6 +18,11 @@ img {
   -webkit-backface-visibility: hidden; /* Improves rendering quality */
 }
 
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+  text-align: center;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
