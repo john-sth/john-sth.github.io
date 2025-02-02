@@ -56,6 +56,7 @@ img {
   padding-left: 20px;
 }
 
+/* align image and text side by side */
 .container {
   display: flex;
   align-items: center;
