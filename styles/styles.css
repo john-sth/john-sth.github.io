@@ -24,6 +24,16 @@ img {
   overflow: hidden;
 }
 
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  color: orange;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
