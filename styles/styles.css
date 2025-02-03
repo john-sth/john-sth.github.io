@@ -32,7 +32,7 @@ img {
   color: orangered;
   text-decoration: none;
   font-size: 17px;
-  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
@@ -45,6 +45,15 @@ img {
 .navbar a.active {
   background-color: orangered;
   color:#000
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.nav ul li {
+  display: inline-block;
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
@@ -84,22 +93,29 @@ p {
 /* unvisited link */
 a:link {
   color: orangered;
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color: orangered;
+  text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
   color:red;
+  text-decoration: underline;
 }
 
 /* selected link */
 a:active {
   color: red;
+  text-decoration: underline;
 }
+
+
+
 
 
 /* align image and text side by side */
