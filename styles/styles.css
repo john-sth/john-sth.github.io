@@ -28,7 +28,7 @@ img {
 /* Navigation links */
 .navbar a {
   float: left;
-  padding: 12px;
+  padding: 5px;
   color: orangered;
   text-decoration: none;
   font-size: 17px;
@@ -38,12 +38,13 @@ img {
 
 /* Add a background color on mouse-over */
 .navbar a:hover {
-  background-color: #000;
+  background-color: #555;
 }
 
 /* Style the current/active link */
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: orangered;
+  color:#000
 }
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
@@ -64,6 +65,35 @@ img {
   font-size: 20px;
   padding-left: 20px;
 }
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: orangered;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color:red;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
 
 /* align image and text side by side */
 .container {
