@@ -103,7 +103,6 @@ ul {
   list-style-type: square;
   padding: 0;
   margin: 0;
-  justify-content: center;
   text-align: center;
 }
 
@@ -140,7 +139,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid orange;
   float: left;
-  width: 180px;
+  width: auto;
 }
 
 div.gallery:hover {
